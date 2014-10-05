@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2893BF1820DC0F003B1892 /* facebookIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2893BB1820DC0F003B1892 /* facebookIcon.png */; };
+		AC2893C01820DC0F003B1892 /* NFL_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2893BC1820DC0F003B1892 /* NFL_Logo.png */; };
+		AC2893C11820DC0F003B1892 /* PlayButtonIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2893BD1820DC0F003B1892 /* PlayButtonIcon.png */; };
+		AC2893C21820DC0F003B1892 /* teamLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2893BE1820DC0F003B1892 /* teamLogo.png */; };
+		AC494A0C181FD849008C37B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC494A0B181FD849008C37B4 /* Foundation.framework */; };
+		AC494A0E181FD849008C37B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC494A0D181FD849008C37B4 /* CoreGraphics.framework */; };
+		AC494A10181FD849008C37B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC494A0F181FD849008C37B4 /* UIKit.framework */; };
+		AC494A16181FD849008C37B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC494A14181FD849008C37B4 /* InfoPlist.strings */; };
+		AC494A18181FD849008C37B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC494A17181FD849008C37B4 /* main.m */; };
+		AC494A1C181FD849008C37B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC494A1B181FD849008C37B4 /* AppDelegate.m */; };
+		AC494A1E181FD849008C37B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC494A1D181FD849008C37B4 /* Images.xcassets */; };
+		AC494A25181FD849008C37B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC494A24181FD849008C37B4 /* XCTest.framework */; };
+		AC494A26181FD849008C37B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC494A0B181FD849008C37B4 /* Foundation.framework */; };
+		AC494A27181FD849008C37B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC494A0F181FD849008C37B4 /* UIKit.framework */; };
+		AC494A2F181FD849008C37B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC494A2D181FD849008C37B4 /* InfoPlist.strings */; };
+		AC494A31181FD849008C37B4 /* NFLSettingsScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC494A30181FD849008C37B4 /* NFLSettingsScreenTests.m */; };
+		AC494A3E181FD886008C37B4 /* NFLSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC494A3C181FD886008C37B4 /* NFLSettingsViewController.m */; };
+		AC494A3F181FD886008C37B4 /* NFLSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC494A3D181FD886008C37B4 /* NFLSettingsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC494A28181FD849008C37B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC494A00181FD849008C37B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC494A07181FD849008C37B4;
+			remoteInfo = NFLSettingsScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC2893BB1820DC0F003B1892 /* facebookIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookIcon.png; sourceTree = "<group>"; };
+		AC2893BC1820DC0F003B1892 /* NFL_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NFL_Logo.png; sourceTree = "<group>"; };
+		AC2893BD1820DC0F003B1892 /* PlayButtonIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButtonIcon.png; sourceTree = "<group>"; };
+		AC2893BE1820DC0F003B1892 /* teamLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teamLogo.png; sourceTree = "<group>"; };
+		AC494A08181FD849008C37B4 /* NFLSettingsScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFLSettingsScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC494A0B181FD849008C37B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC494A0D181FD849008C37B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC494A0F181FD849008C37B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC494A13181FD849008C37B4 /* NFLSettingsScreen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NFLSettingsScreen-Info.plist"; sourceTree = "<group>"; };
+		AC494A15181FD849008C37B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC494A17181FD849008C37B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC494A19181FD849008C37B4 /* NFLSettingsScreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NFLSettingsScreen-Prefix.pch"; sourceTree = "<group>"; };
+		AC494A1A181FD849008C37B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC494A1B181FD849008C37B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC494A1D181FD849008C37B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC494A23181FD849008C37B4 /* NFLSettingsScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFLSettingsScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC494A24181FD849008C37B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AC494A2C181FD849008C37B4 /* NFLSettingsScreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NFLSettingsScreenTests-Info.plist"; sourceTree = "<group>"; };
+		AC494A2E181FD849008C37B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC494A30181FD849008C37B4 /* NFLSettingsScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFLSettingsScreenTests.m; sourceTree = "<group>"; };
+		AC494A3B181FD886008C37B4 /* NFLSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFLSettingsViewController.h; sourceTree = "<group>"; };
+		AC494A3C181FD886008C37B4 /* NFLSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFLSettingsViewController.m; sourceTree = "<group>"; };
+		AC494A3D181FD886008C37B4 /* NFLSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NFLSettingsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC494A05181FD849008C37B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC494A0E181FD849008C37B4 /* CoreGraphics.framework in Frameworks */,
+				AC494A10181FD849008C37B4 /* UIKit.framework in Frameworks */,
+				AC494A0C181FD849008C37B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC494A20181FD849008C37B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC494A25181FD849008C37B4 /* XCTest.framework in Frameworks */,
+				AC494A27181FD849008C37B4 /* UIKit.framework in Frameworks */,
+				AC494A26181FD849008C37B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC2893BA1820DC0F003B1892 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AC2893BB1820DC0F003B1892 /* facebookIcon.png */,
+				AC2893BC1820DC0F003B1892 /* NFL_Logo.png */,
+				AC2893BD1820DC0F003B1892 /* PlayButtonIcon.png */,
+				AC2893BE1820DC0F003B1892 /* teamLogo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AC4949FF181FD849008C37B4 = {
+			isa = PBXGroup;
+			children = (
+				AC494A11181FD849008C37B4 /* NFLSettingsScreen */,
+				AC494A2A181FD849008C37B4 /* NFLSettingsScreenTests */,
+				AC494A0A181FD849008C37B4 /* Frameworks */,
+				AC494A09181FD849008C37B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC494A09181FD849008C37B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC494A08181FD849008C37B4 /* NFLSettingsScreen.app */,
+				AC494A23181FD849008C37B4 /* NFLSettingsScreenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC494A0A181FD849008C37B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC494A0B181FD849008C37B4 /* Foundation.framework */,
+				AC494A0D181FD849008C37B4 /* CoreGraphics.framework */,
+				AC494A0F181FD849008C37B4 /* UIKit.framework */,
+				AC494A24181FD849008C37B4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC494A11181FD849008C37B4 /* NFLSettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AC494A3A181FD870008C37B4 /* SettingsViewController */,
+				AC494A1A181FD849008C37B4 /* AppDelegate.h */,
+				AC494A1B181FD849008C37B4 /* AppDelegate.m */,
+				AC494A1D181FD849008C37B4 /* Images.xcassets */,
+				AC494A12181FD849008C37B4 /* Supporting Files */,
+			);
+			path = NFLSettingsScreen;
+			sourceTree = "<group>";
+		};
+		AC494A12181FD849008C37B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC494A13181FD849008C37B4 /* NFLSettingsScreen-Info.plist */,
+				AC494A14181FD849008C37B4 /* InfoPlist.strings */,
+				AC494A17181FD849008C37B4 /* main.m */,
+				AC494A19181FD849008C37B4 /* NFLSettingsScreen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC494A2A181FD849008C37B4 /* NFLSettingsScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC494A30181FD849008C37B4 /* NFLSettingsScreenTests.m */,
+				AC494A2B181FD849008C37B4 /* Supporting Files */,
+			);
+			path = NFLSettingsScreenTests;
+			sourceTree = "<group>";
+		};
+		AC494A2B181FD849008C37B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC494A2C181FD849008C37B4 /* NFLSettingsScreenTests-Info.plist */,
+				AC494A2D181FD849008C37B4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC494A3A181FD870008C37B4 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AC2893BA1820DC0F003B1892 /* Images */,
+				AC494A3B181FD886008C37B4 /* NFLSettingsViewController.h */,
+				AC494A3C181FD886008C37B4 /* NFLSettingsViewController.m */,
+				AC494A3D181FD886008C37B4 /* NFLSettingsViewController.xib */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC494A07181FD849008C37B4 /* NFLSettingsScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC494A34181FD849008C37B4 /* Build configuration list for PBXNativeTarget "NFLSettingsScreen" */;
+			buildPhases = (
+				AC494A04181FD849008C37B4 /* Sources */,
+				AC494A05181FD849008C37B4 /* Frameworks */,
+				AC494A06181FD849008C37B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFLSettingsScreen;
+			productName = NFLSettingsScreen;
+			productReference = AC494A08181FD849008C37B4 /* NFLSettingsScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC494A22181FD849008C37B4 /* NFLSettingsScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC494A37181FD849008C37B4 /* Build configuration list for PBXNativeTarget "NFLSettingsScreenTests" */;
+			buildPhases = (
+				AC494A1F181FD849008C37B4 /* Sources */,
+				AC494A20181FD849008C37B4 /* Frameworks */,
+				AC494A21181FD849008C37B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC494A29181FD849008C37B4 /* PBXTargetDependency */,
+			);
+			name = NFLSettingsScreenTests;
+			productName = NFLSettingsScreenTests;
+			productReference = AC494A23181FD849008C37B4 /* NFLSettingsScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC494A00181FD849008C37B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Strumsoft;
+				TargetAttributes = {
+					AC494A22181FD849008C37B4 = {
+						TestTargetID = AC494A07181FD849008C37B4;
+					};
+				};
+			};
+			buildConfigurationList = AC494A03181FD849008C37B4 /* Build configuration list for PBXProject "NFLSettingsScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC4949FF181FD849008C37B4;
+			productRefGroup = AC494A09181FD849008C37B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC494A07181FD849008C37B4 /* NFLSettingsScreen */,
+				AC494A22181FD849008C37B4 /* NFLSettingsScreenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC494A06181FD849008C37B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2893C11820DC0F003B1892 /* PlayButtonIcon.png in Resources */,
+				AC2893C21820DC0F003B1892 /* teamLogo.png in Resources */,
+				AC494A16181FD849008C37B4 /* InfoPlist.strings in Resources */,
+				AC494A3F181FD886008C37B4 /* NFLSettingsViewController.xib in Resources */,
+				AC2893C01820DC0F003B1892 /* NFL_Logo.png in Resources */,
+				AC2893BF1820DC0F003B1892 /* facebookIcon.png in Resources */,
+				AC494A1E181FD849008C37B4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC494A21181FD849008C37B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC494A2F181FD849008C37B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC494A04181FD849008C37B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC494A3E181FD886008C37B4 /* NFLSettingsViewController.m in Sources */,
+				AC494A1C181FD849008C37B4 /* AppDelegate.m in Sources */,
+				AC494A18181FD849008C37B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC494A1F181FD849008C37B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC494A31181FD849008C37B4 /* NFLSettingsScreenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC494A29181FD849008C37B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC494A07181FD849008C37B4 /* NFLSettingsScreen */;
+			targetProxy = AC494A28181FD849008C37B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC494A14181FD849008C37B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC494A15181FD849008C37B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC494A2D181FD849008C37B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC494A2E181FD849008C37B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC494A32181FD849008C37B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC494A33181FD849008C37B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC494A35181FD849008C37B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NFLSettingsScreen/NFLSettingsScreen-Prefix.pch";
+				INFOPLIST_FILE = "NFLSettingsScreen/NFLSettingsScreen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC494A36181FD849008C37B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NFLSettingsScreen/NFLSettingsScreen-Prefix.pch";
+				INFOPLIST_FILE = "NFLSettingsScreen/NFLSettingsScreen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC494A38181FD849008C37B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NFLSettingsScreen.app/NFLSettingsScreen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NFLSettingsScreen/NFLSettingsScreen-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NFLSettingsScreenTests/NFLSettingsScreenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AC494A39181FD849008C37B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NFLSettingsScreen.app/NFLSettingsScreen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NFLSettingsScreen/NFLSettingsScreen-Prefix.pch";
+				INFOPLIST_FILE = "NFLSettingsScreenTests/NFLSettingsScreenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC494A03181FD849008C37B4 /* Build configuration list for PBXProject "NFLSettingsScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC494A32181FD849008C37B4 /* Debug */,
+				AC494A33181FD849008C37B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC494A34181FD849008C37B4 /* Build configuration list for PBXNativeTarget "NFLSettingsScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC494A35181FD849008C37B4 /* Debug */,
+				AC494A36181FD849008C37B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC494A37181FD849008C37B4 /* Build configuration list for PBXNativeTarget "NFLSettingsScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC494A38181FD849008C37B4 /* Debug */,
+				AC494A39181FD849008C37B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC494A00181FD849008C37B4 /* Project object */;
+}
